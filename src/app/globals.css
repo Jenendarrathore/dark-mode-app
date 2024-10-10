@@ -1,0 +1,27 @@
+:root {
+  --backgorund-color: #fff;
+  --backgorund-color-dark: #000;
+  --text-color: #000;
+  --text-color-dark: #fff;
+}
+
+.light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff758c 0%, #ff7eb3 100%);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #000000 0%, #000 100%);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
